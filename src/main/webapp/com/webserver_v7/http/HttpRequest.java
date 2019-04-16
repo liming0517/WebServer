@@ -1,5 +1,7 @@
 package main.webapp.com.webserver_v7.http;
 
+import main.webapp.com.webserver_v7.core.EmptyRequestException;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.Socket;
@@ -34,7 +36,7 @@ public class HttpRequest {
     // 消息正文相关信息
 
     //构造方法
-    public HttpRequest(Socket socket) {
+    public HttpRequest(Socket socket) throws EmptyRequestException {
         System.out.println("HttpRequest:开始解析请求");
 
         try {
@@ -43,7 +45,11 @@ public class HttpRequest {
             parseRequestLine();
             parseHeaders();
             parseContent();
-        } catch (IOException e) {
+        }
+        catch(EmptyRequestException e){
+            throw e;
+        }
+        catch (IOException e) {
             e.printStackTrace();
         }
 
@@ -52,18 +58,7 @@ public class HttpRequest {
 
 
     //解析请求行
-    public void parseRequestLine() {
-//        try {
-//            InputStream inputStream = socket.getInputStream();
-//            byte[] bytes =new byte[1024];
-//            int n =0;
-//            while((n=inputStream.read(bytes))!= -1){
-//                String s = new String(bytes,0,n);
-//                System.out.println(s);
-//            }
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }r
+    public void parseRequestLine() throws EmptyRequestException {
         System.out.println("开始解析请求行");
         /**
          * 1.通过输入流读取第一行字符串(请求行内容)
@@ -73,6 +68,9 @@ public class HttpRequest {
         try {
             String line =readLine();
             System.out.println("请求行:\r\n" + line);
+            if(line.equals("")){
+                throw new EmptyRequestException();
+            }
             //后期循环接收客户端连接后，下面代码可能会出现数组下标越界，这是由于空请求引起的，后边会解决
             String xyz[] = line.split("\\s");
             this.method = xyz[0];
@@ -82,7 +80,10 @@ public class HttpRequest {
             System.out.println("url:" + url);
             System.out.println("protocol:" + protocol);
 
-        } catch (Exception e) {
+        }catch(EmptyRequestException e){
+            throw e;
+        }
+        catch (Exception e) {
             e.printStackTrace();
         }
 

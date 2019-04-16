@@ -27,7 +27,9 @@ public class ClientHandler implements Runnable {
 //                System.out.print((char)d);
 //            }
         //1,解析请求
-        httpRequest = new HttpRequest(socket);
+        try {
+            httpRequest = new HttpRequest(socket);
+
         /**
          * 2.处理请求
          * 1.通过request获取url，用来得知用户请求的资源的路径
@@ -39,14 +41,14 @@ public class ClientHandler implements Runnable {
         HttpResponse httpReponse = new HttpResponse(socket);
         String path = httpRequest.getUrl();
         //通过路径找到webapps目录下对应资源
-        try {
+
             File file = new File("./\\src\\main\\webapp\\com\\webserver_v5\\webapps" + path);
             if (file.exists()) {
                 //将要响应的资源设置到response的entity属性上
                 httpReponse.setEntity(file);
             } else {
                 System.out.println("404资源不存在");
-                File file404 = new File("./\\src\\main\\webapp\\com\\webserver_v5\\webapps\\myweb\\404.html");
+                File file404 = new File("./\\src\\main\\webapp\\com\\webserver_v7\\webapps\\myweb\\404.html");
                 //设置状态码和描述
                 httpReponse.setStatusCode(404);
                 httpReponse.setStatusReason("NOT FOUND");
@@ -60,7 +62,11 @@ public class ClientHandler implements Runnable {
             System.out.println("ClientHandler:处理完毕！");
 
 
-        } catch (Exception e) {
+        }
+        catch(EmptyRequestException e){
+            System.out.println("浏览器发送了空请求，无需处理");
+        }
+        catch (Exception e) {
             e.printStackTrace();
         }finally {
             try {
