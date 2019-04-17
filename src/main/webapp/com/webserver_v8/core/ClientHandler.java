@@ -50,13 +50,7 @@ public class ClientHandler implements Runnable {
             if (file.exists()) {
                 //将要响应的资源设置到response的entity属性上
                 httpReponse.setEntity(file);
-                String fileName =file.getName();
-                //获取后缀名
-                String ext= fileName.substring(fileName.indexOf(".")+1);
 
-                //添加响应头
-                httpReponse.putHeader("Content-Type", HttpContext.getMimeType(ext));
-                httpReponse.putHeader("Content-Length",file.length()+"");
             } else {
                 System.out.println("404资源不存在");
                 File file404 = new File("./\\src\\main\\webapp\\com\\webserver_v8\\webapps\\myweb\\404.html");
@@ -65,10 +59,6 @@ public class ClientHandler implements Runnable {
                 httpReponse.setStatusReason("NOT FOUND");
                 //设置响应正文404页面
                 httpReponse.setEntity(file404);
-
-                //添加响应头
-                httpReponse.putHeader("Content-Type","text/html");
-                httpReponse.putHeader("Content-Length",file404.length()+"");
             }
 
 

@@ -2,39 +2,545 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="506b71d3-4d72-41b3-825a-443af4ba4c8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/testExercise/test3/test6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_test1/core/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_test1/core/ExceptionHttpnullException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_test1/core/Webserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_test1/http/HttpContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_test1/http/HttpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_test1/http/HttpResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_test1/http/http.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_test1/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_test1/webapps/myweb/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_test1/webapps/myweb/baidu123.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_test1/webapps/myweb/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_test1/webapps/myweb/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v7/core/EmptyRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/core/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/core/EmptyRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/core/Webserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/http/HttpContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/http/HttpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/http/HttpResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/http/http.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/webapps/myweb/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/webapps/myweb/baidu123.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/webapps/myweb/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/webapps/myweb/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/core/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/core/EmptyRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/core/Webserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/http/HttpContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/http/HttpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/http/HttpResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/http/http.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/jquery-1.9.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/js/css3-mediaqueries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/js/holder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/js/html5shiv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/bootstrap3/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/css/cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/css/favorites.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/css/imgmove.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/css/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/css/order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/css/orderConfirm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/css/orderInfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/css/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/css/reg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/css/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/css/top.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/css/webindex.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/index/404_img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/index/404_img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/index/500_img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/index/500_img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/index/android.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/index/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/index/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/index/bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/index/erweima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/index/footerFont.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/index/index_banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/index/index_banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/index/index_banner3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/index/index_banner4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/index/index_banner5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/index/ios.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/index/stumalllogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/index/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/001GuangBo)FB60322/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/001GuangBo)FB60322/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/001GuangBo)FB60322/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/001GuangBo)FB60322/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/001GuangBo)FB60322/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/001GuangBo)FB60322/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/001GuangBo)FB60322/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/001GuangBo)FB60322/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/001GuangBo)FB60322/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/001GuangBo)FB60322/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/001GuangBo)FB60322/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/001GuangBo)FB60322/广博(GuangBo)皮面日程本子2017.1-2018.6计划记事本效率手册米色FB60322.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/002calculator1548A/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/002calculator1548A/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/002calculator1548A/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/002calculator1548A/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/002calculator1548A/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/002calculator1548A/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/002calculator1548A/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/002calculator1548A/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/002calculator1548A/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/002calculator1548A/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/002calculator1548A/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/002calculator1548A/得力（deli）1548A商务办公桌面计算器 太阳能双电源白色.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/00GuangBo1040A5GBR0731/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/00GuangBo1040A5GBR0731/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/00GuangBo1040A5GBR0731/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/00GuangBo1040A5GBR0731/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/00GuangBo1040A5GBR0731/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/00GuangBo1040A5GBR0731/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/00GuangBo1040A5GBR0731/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/00GuangBo1040A5GBR0731/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/00GuangBo1040A5GBR0731/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/00GuangBo1040A5GBR0731/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/00GuangBo1040A5GBR0731/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/00GuangBo1040A5GBR0731/广博(GuangBo)10本装40张A5牛皮纸记事本子日记本办公软抄本GBR0731.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/01GuangBo16K115FB60506/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/01GuangBo16K115FB60506/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/01GuangBo16K115FB60506/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/01GuangBo16K115FB60506/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/01GuangBo16K115FB60506/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/01GuangBo16K115FB60506/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/01GuangBo16K115FB60506/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/01GuangBo16K115FB60506/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/01GuangBo16K115FB60506/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/01GuangBo16K115FB60506/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/01GuangBo16K115FB60506/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/01GuangBo16K115FB60506/广博(GuangBo)16K115页线圈记事本子日记本文具笔记本图案随机 FB60506.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/02COMIXC5902A5122blue/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/02COMIXC5902A5122blue/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/02COMIXC5902A5122blue/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/02COMIXC5902A5122blue/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/02COMIXC5902A5122blue/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/02COMIXC5902A5122blue/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/02COMIXC5902A5122blue/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/02COMIXC5902A5122blue/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/02COMIXC5902A5122blue/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/02COMIXC5902A5122blue/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/02COMIXC5902A5122blue/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/03SchneiderK15/03 施耐德（Schneider） K15 经典款圆珠笔 (5支混色装).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/03SchneiderK15/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/03SchneiderK15/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/03SchneiderK15/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/03SchneiderK15/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/03SchneiderK15/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/03SchneiderK15/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/03SchneiderK15/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/03SchneiderK15/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/03SchneiderK15/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/03SchneiderK15/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/03SchneiderK15/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/04_SUNWOODC452312/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/04_SUNWOODC452312/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/04_SUNWOODC452312/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/04_SUNWOODC452312/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/04_SUNWOODC452312/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/04_SUNWOODC452312/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/04_SUNWOODC452312/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/04_SUNWOODC452312/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/04_SUNWOODC452312/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/04_SUNWOODC452312/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/04_SUNWOODC452312/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/04_SUNWOODC452312/三木(SUNWOOD) C4523 票据网格拉链袋文件袋 12个装 颜色随机.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000R1605Ssilvery/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000R1605Ssilvery/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000R1605Ssilvery/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000R1605Ssilvery/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000R1605Ssilvery/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000R1605Ssilvery/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000R1605Ssilvery/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000R1605Ssilvery/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000R1605Ssilvery/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000R1605Ssilvery/584e082bN8530695f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000R1605Ssilvery/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000R1605Ssilvery/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000R1605Ssilvery/戴尔 DELL燃7000 R1605S.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000gold/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000gold/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000gold/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000gold/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000gold/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000gold/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000gold/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000gold/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000gold/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000gold/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000gold/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000gold/personage/select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000gold/personage/un_select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/11DELLran7000gold/personage/user50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12(DELL)XPS13gold/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12(DELL)XPS13gold/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12(DELL)XPS13gold/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12(DELL)XPS13gold/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12(DELL)XPS13gold/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12(DELL)XPS13gold/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12(DELL)XPS13gold/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12(DELL)XPS13gold/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12(DELL)XPS13gold/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12(DELL)XPS13gold/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12(DELL)XPS13gold/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12DELLXPS13-silvery/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12DELLXPS13-silvery/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12DELLXPS13-silvery/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12DELLXPS13-silvery/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12DELLXPS13-silvery/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12DELLXPS13-silvery/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12DELLXPS13-silvery/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12DELLXPS13-silvery/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12DELLXPS13-silvery/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12DELLXPS13-silvery/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/12DELLXPS13-silvery/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_black/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_black/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_black/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_black/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_black/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_black/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_black/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_black/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_black/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_black/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_black/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_silvery/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_silvery/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_silvery/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_silvery/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_silvery/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_silvery/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_silvery/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_silvery/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_silvery/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_silvery/57ff004eNea3e74d1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_silvery/5800726fN0f838cec.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_silvery/5800726fN5c1ead98.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_silvery/58007270N9a5010bf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_silvery/58044b07N0c5b69b7 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_silvery/58044b07N0c5b69b7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_silvery/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_silvery/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/13LenovoIdeaPad310_silvery/联想(Lenovo)IdeaPad310.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _gold/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _gold/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _gold/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _gold/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _gold/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _gold/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _gold/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _gold/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _gold/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _gold/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _gold/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _gold/联想（Lenovo）YOGA710 14英寸触控笔记本（i7-7500U 8G 256GSSD 2G独显 全高清IPS 360°翻转 正版office）金.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _silvery/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _silvery/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _silvery/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _silvery/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _silvery/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _silvery/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _silvery/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _silvery/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _silvery/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _silvery/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _silvery/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/14LenovoYOGA710 _silvery/联想（Lenovo）YOGA710 14英寸触控笔记本（i7-7500U 8G 256GSSD 2G独显 全高清IPS 360°翻转 正版office）银.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_black/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_black/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_black/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_black/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_black/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_black/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_black/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_black/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_black/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_black/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_black/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_black/联想（Lenovo）小新310经典版14英寸笔记本电脑（i7-7500U 4G 500G 2G独显 office2016 FHD）黑色.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_silvery/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_silvery/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_silvery/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_silvery/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_silvery/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_silvery/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_silvery/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_silvery/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_silvery/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_silvery/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_silvery/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/15Lenovo_xiaoxin_310_silvery/联想（Lenovo）小新310经典版.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900green/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900green/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900green/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900green/2big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900green/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900green/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900green/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900green/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900green/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900green/57ce72a4N081febea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900green/57ce72a5N803196d9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900green/57ce72aaNf87890ce.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900green/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900green/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900green/联想(Lenovo) YOGA900 (YOGA4 PRO)多彩版 13.3英寸触控笔记本电脑(i5-6200U 8G 256G SSD office2016)薄荷绿.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900pink/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900pink/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900pink/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900pink/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900pink/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900pink/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900pink/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900pink/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900pink/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900pink/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900pink/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900red/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900red/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900red/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900red/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900red/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900red/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900red/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900red/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900red/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900red/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/16LenovoYOGA900red/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_gold/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_gold/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_gold/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_gold/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_gold/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_gold/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_gold/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_gold/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_gold/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_gold/58579fe3N42fc4d85.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_gold/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_gold/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_gold/联想(Lenovo)小新Air13 Pro.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_silvery/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_silvery/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_silvery/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_silvery/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_silvery/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_silvery/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_silvery/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_silvery/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_silvery/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_silvery/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_silvery/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/17Lenovo)xiaoxinAir13Pro_silvery/联想(Lenovo)小新Air13 Pro版13.3英寸超轻薄笔记本（I5-6200U 8G 256G PCIE SSD 940MX 2G独显 IPS 背光）银.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/18(DELL)XPS15_silvery/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/18(DELL)XPS15_silvery/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/18(DELL)XPS15_silvery/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/18(DELL)XPS15_silvery/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/18(DELL)XPS15_silvery/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/18(DELL)XPS15_silvery/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/18(DELL)XPS15_silvery/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/18(DELL)XPS15_silvery/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/18(DELL)XPS15_silvery/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/18(DELL)XPS15_silvery/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/18(DELL)XPS15_silvery/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/19DELL15MF Pro/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/19DELL15MF Pro/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/19DELL15MF Pro/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/19DELL15MF Pro/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/19DELL15MF Pro/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/19DELL15MF Pro/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/19DELL15MF Pro/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/19DELL15MF Pro/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/19DELL15MF Pro/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/19DELL15MF Pro/57e63dffN5f42df65.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/19DELL15MF Pro/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/19DELL15MF Pro/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/19DELL15MF Pro/6_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/19DELL15MF Pro/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/19DELL15MF Pro/rBEhWFMYF2AIAAAAAAEL5PVVcmcAAJiVwIOMjMAAQv8249.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/19DELL15MF Pro/戴尔(DELL)魔方15MF Pro-R2505TSS灵越.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/20DellXPS15-9550/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/20DellXPS15-9550/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/20DellXPS15-9550/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/20DellXPS15-9550/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/20DellXPS15-9550/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/20DellXPS15-9550/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/20DellXPS15-9550/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/20DellXPS15-9550/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/20DellXPS15-9550/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/20DellXPS15-9550/56ff7fddN3f659f3d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/20DellXPS15-9550/580d6eb0N020ee1f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/20DellXPS15-9550/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/20DellXPS15-9550/Dell戴尔 XPS15-9550.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/20DellXPS15-9550/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/21ThinkPad_New_S1/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/21ThinkPad_New_S1/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/21ThinkPad_New_S1/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/21ThinkPad_New_S1/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/21ThinkPad_New_S1/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/21ThinkPad_New_S1/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/21ThinkPad_New_S1/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/21ThinkPad_New_S1/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/21ThinkPad_New_S1/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/21ThinkPad_New_S1/54630ab3Nb8b0c4b0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/21ThinkPad_New_S1/57b3ddbcN4f93bfbb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/21ThinkPad_New_S1/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/21ThinkPad_New_S1/ThinkPad New S1（001CD）.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/21ThinkPad_New_S1/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/22_LEXON_LNE6025B06T/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/22_LEXON_LNE6025B06T/1_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/22_LEXON_LNE6025B06T/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/22_LEXON_LNE6025B06T/2_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/22_LEXON_LNE6025B06T/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/22_LEXON_LNE6025B06T/3_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/22_LEXON_LNE6025B06T/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/22_LEXON_LNE6025B06T/4_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/22_LEXON_LNE6025B06T/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/22_LEXON_LNE6025B06T/5_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/images/portal/22_LEXON_LNE6025B06T/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/js/adddel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/js/autoLogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/js/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/js/distpicker.data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/js/distpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/js/favorites.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/js/imgmove.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/js/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/js/orderConfirm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/js/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/js/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/addAddress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/favorites.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/footerTemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/leftTemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/orderConfirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/orderInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/orders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/payFail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/paySuccess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/payment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/topTemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/TeduStore/web/userdata.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/myweb/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/myweb/baidu123.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/myweb/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/webapps/myweb/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/com/webserver_v7/core/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v7/core/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/com/webserver_v7/http/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v7/http/HttpRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/com/webserver_v7/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v7/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/com/webserver_v7/webapps/myweb/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v7/webapps/myweb/index1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/core/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/core/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/http/HttpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/http/HttpResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/tankgame/element/EnemyTank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/tankgame/element/EnemyTank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/tankgame/element/MyTank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/tankgame/element/MyTank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/tankgame/element/Tank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/tankgame/element/Tank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/tankgame/main/MyTankGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/tankgame/main/MyTankGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/tankgame/paint/Mypanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/tankgame/paint/Mypanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/Webserver_v2/core/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/Webserver_v2/core/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/Webserver_v2/core/Webserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/Webserver_v2/core/Webserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/Webserver_v2/http/HttpRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/Webserver_v2/http/HttpRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test1/core/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test1/core/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test1/core/Webserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test1/core/Webserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test1/http/Http.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test1/http/Http.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test2/core2/ClientHandle2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test2/core2/ClientHandle2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test2/core2/Webserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test2/core2/Webserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test2/http2/Http2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test2/http2/Http2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test3/Monkey.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test3/Monkey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test3/Pig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test3/Pig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test3/TicketWindows.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test3/TicketWindows.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test3/test3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test3/test3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test3/test4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test3/test4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test3/test5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test3/test5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test3/test6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test3/test6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test4/webserver/core/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test4/webserver/core/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test4/webserver/core/Webserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test4/webserver/core/Webserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test4/webserver/http/HttpRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/testExercise/test4/webserver/http/HttpRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_test1/core/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_test1/core/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_test1/core/ExceptionHttpnullException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_test1/core/ExceptionHttpnullException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_test1/core/Webserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_test1/core/Webserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_test1/http/HttpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_test1/http/HttpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_test1/http/HttpRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_test1/http/HttpRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_test1/http/HttpResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_test1/http/HttpResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v1/core/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v1/core/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v1/core/Webserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v1/core/Webserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v1/other/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v1/other/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v3/core/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v3/core/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v3/core/Webserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v3/core/Webserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v3/http/HttpRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v3/http/HttpRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v4/core/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v4/core/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v4/core/Webserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v4/core/Webserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v4/http/HttpRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v4/http/HttpRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v5/core/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v5/core/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v5/core/Webserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v5/core/Webserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v5/http/HttpRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v5/http/HttpRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v6/core/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v6/core/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v6/core/Webserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v6/core/Webserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v6/http/HttpRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v6/http/HttpRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v6/http/HttpResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v6/http/HttpResponse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v7/core/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v7/core/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v7/core/EmptyRequestException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v7/core/EmptyRequestException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v7/core/Webserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v7/core/Webserver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v7/http/HttpRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v7/http/HttpRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v7/http/HttpResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v7/http/HttpResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v8/core/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v8/core/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v8/core/EmptyRequestException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v8/core/EmptyRequestException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v8/core/Webserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v8/core/Webserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v8/http/HttpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v8/http/HttpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v8/http/HttpRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v8/http/HttpRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v8/http/HttpResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/com/webserver_v8/http/HttpResponse.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,7 +551,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v9/core/Webserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,6 +583,7 @@
       <find>||</find>
       <find>&amp;&amp;</find>
       <find>socket</find>
+      <find>mime</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -84,12 +604,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/tankgame/main/Mypanel.java" />
-        <option value="$PROJECT_DIR$/src/main/tankgame/paint/mypanel.java" />
-        <option value="$PROJECT_DIR$/src/main/tankgame/element/Tanks.java" />
-        <option value="$PROJECT_DIR$/src/main/tankgame/element/EnemyTank.java" />
-        <option value="$PROJECT_DIR$/src/main/tankgame/element/MyTank.java" />
-        <option value="$PROJECT_DIR$/src/main/tankgame/main/MyTankGame.java" />
         <option value="$PROJECT_DIR$/src/main/tankgame/element/Tank.java" />
         <option value="$PROJECT_DIR$/src/main/tankgame/paint/Mypanel.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/com/webserver_v2/http/HttpRequest.java" />
@@ -124,7 +638,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/com/webserver_v7/core/ClientHandler.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/core/Webserver.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/http/HttpRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/http/HttpResponse.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/http/HttpContext.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/readme.txt" />
         <option value="$PROJECT_DIR$/src/main/webapp/com/webserver_test1/core/Webserver.java" />
@@ -133,8 +646,15 @@
         <option value="$PROJECT_DIR$/src/main/webapp/com/webserver_test1/core/ClientHandler.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/com/testExercise/test3/test6.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/com/webserver_test1/http/HttpContext.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/core/ClientHandler.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/com/webserver_test1/http/HttpResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/http/HttpResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/com/webserver_v8/core/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/core/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/core/Webserver.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/http/HttpResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/http/HttpRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/XML/ParseXmlDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/com/webserver_v9/http/HttpContext.java" />
       </list>
     </option>
   </component>
@@ -174,6 +694,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -190,12 +712,6 @@
               <item name="WebServer_v1" type="58d84e3e:PackageViewProjectNode" />
               <item name="WebServer_v1" type="616d4139:PackageViewModuleNode" />
               <item name="main" type="1f31426a:PackageElementNode" />
-              <item name="tankgame" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="WebServer_v1" type="58d84e3e:PackageViewProjectNode" />
-              <item name="WebServer_v1" type="616d4139:PackageViewModuleNode" />
-              <item name="main" type="1f31426a:PackageElementNode" />
               <item name="webapp" type="1f31426a:PackageElementNode" />
             </path>
             <path>
@@ -205,24 +721,68 @@
               <item name="webapp" type="1f31426a:PackageElementNode" />
               <item name="com" type="1f31426a:PackageElementNode" />
             </path>
+            <path>
+              <item name="WebServer_v1" type="58d84e3e:PackageViewProjectNode" />
+              <item name="WebServer_v1" type="616d4139:PackageViewModuleNode" />
+              <item name="main" type="1f31426a:PackageElementNode" />
+              <item name="webapp" type="1f31426a:PackageElementNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="webserver_v9" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="WebServer_v1" type="58d84e3e:PackageViewProjectNode" />
+              <item name="WebServer_v1" type="616d4139:PackageViewModuleNode" />
+              <item name="main" type="1f31426a:PackageElementNode" />
+              <item name="webapp" type="1f31426a:PackageElementNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="webserver_v9" type="1f31426a:PackageElementNode" />
+              <item name="core" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="WebServer_v1" type="58d84e3e:PackageViewProjectNode" />
+              <item name="WebServer_v1" type="616d4139:PackageViewModuleNode" />
+              <item name="main" type="1f31426a:PackageElementNode" />
+              <item name="webapp" type="1f31426a:PackageElementNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="webserver_v9" type="1f31426a:PackageElementNode" />
+              <item name="http" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="WebServer_v1" type="58d84e3e:PackageViewProjectNode" />
+              <item name="WebServer_v1" type="616d4139:PackageViewModuleNode" />
+              <item name="main" type="1f31426a:PackageElementNode" />
+              <item name="webapp" type="1f31426a:PackageElementNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="webserver_v9" type="1f31426a:PackageElementNode" />
+              <item name="webapps" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="WebServer_v1" type="58d84e3e:PackageViewProjectNode" />
+              <item name="WebServer_v1" type="616d4139:PackageViewModuleNode" />
+              <item name="main" type="1f31426a:PackageElementNode" />
+              <item name="webapp" type="1f31426a:PackageElementNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="webserver_v9" type="1f31426a:PackageElementNode" />
+              <item name="webapps" type="1f31426a:PackageElementNode" />
+              <item name="TeduStore" type="1f31426a:PackageElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555420067897" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555495472552" />
+    <property name="last_opened_file_path" value="D:/Desktop/dom4j-1.6.1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -240,9 +800,10 @@
       <recent name="F:\WebServer_v1\src\main\webapp\com\testExercise\test3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\WebServer_v1" />
+      <recent name="F:\WebServer_v1\src\main\webapp\com\webserver_v9\conf" />
       <recent name="F:\WebServer_v1\src\main\webapp\com\webserver_v8\webapps" />
       <recent name="F:\WebServer_v1\src\main\webapp" />
-      <recent name="F:\WebServer_v1" />
       <recent name="F:\WebServer_v1\src\main\webapp\com\webserver_v3\webapps\myweb" />
     </key>
   </component>
@@ -258,13 +819,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Webserver (5)">
-    <configuration name="MyTankGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.tankgame.main.MyTankGame" />
+  <component name="RunManager" selected="Application.Webserver">
+    <configuration name="HttpContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.webapp.com.webserver_v9.http.HttpContext" />
       <module name="WebServer_v1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.tankgame.main.*" />
+          <option name="PATTERN" value="main.webapp.com.webserver_v9.http.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,12 +833,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Webserver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.webapp.com.webserver_v7.core.Webserver" />
+    <configuration name="MyTankGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.tankgame.main.MyTankGame" />
       <module name="WebServer_v1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.webapp.com.webserver_v7.core.*" />
+          <option name="PATTERN" value="main.tankgame.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,11 +860,11 @@
       </method>
     </configuration>
     <configuration name="Webserver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.webapp.com.webserver_test1.core.Webserver" />
+      <option name="MAIN_CLASS_NAME" value="main.webapp.com.webserver_v9.core.Webserver" />
       <module name="WebServer_v1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.webapp.com.webserver_test1.core.*" />
+          <option name="PATTERN" value="main.webapp.com.webserver_v9.core.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -339,11 +900,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Webserver (5)" />
-        <item itemvalue="Application.test6" />
-        <item itemvalue="Application.MyTankGame" />
+        <item itemvalue="Application.Webserver" />
+        <item itemvalue="Application.HttpContext" />
         <item itemvalue="Application.Webserver (2)" />
-        <item itemvalue="Application.Webserver (1)" />
+        <item itemvalue="Application.MyTankGame" />
+        <item itemvalue="Application.test6" />
       </list>
     </recent_temporary>
   </component>
@@ -369,24 +930,31 @@
       <workItem from="1555308990001" duration="12951000" />
       <workItem from="1555375011936" duration="6373000" />
       <workItem from="1555381750150" duration="4660000" />
+      <workItem from="1555462624724" duration="3911000" />
+      <workItem from="1555468064793" duration="183000" />
+      <workItem from="1555472834173" duration="1634000" />
+      <workItem from="1555491504286" duration="3898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138153000" />
+    <option name="totallyTimeSpent" value="148439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1376" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29483283" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3130699" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297546" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32718894" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39784947" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -423,66 +991,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v4/http/HttpRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="911">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v4/core/ClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v4/core/Webserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v5/http/HttpRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v5/webapps/myweb/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v4/webapps/myweb/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v5/webapps/myweb/baidu123.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v5/webapps/myweb/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="76" column="39" lean-forward="true" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/http.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -616,16 +1124,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="70" column="32" lean-forward="true" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v8/core/Webserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -825,17 +1323,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Map.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test1/http/HttpResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v8/core/ClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="58" column="73" lean-forward="true" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
+        <state relative-caret-position="280">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -844,8 +1335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v8/http/HttpResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="153" column="22" selection-start-line="153" selection-start-column="22" selection-end-line="153" selection-end-column="22" />
+        <state relative-caret-position="332">
+          <caret line="157" column="64" selection-start-line="157" selection-start-column="64" selection-end-line="157" selection-end-column="64" />
           <folding>
             <element signature="e#3587#3588#0" expanded="true" />
             <element signature="e#3631#3632#0" expanded="true" />
@@ -853,24 +1344,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test1/http/HttpResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v8/core/ClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="299">
+          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2636#2637#0" expanded="true" />
-            <element signature="e#2663#2664#0" expanded="true" />
-            <element signature="e#2701#2702#0" expanded="true" />
-            <element signature="e#2733#2734#0" expanded="true" />
-            <element signature="e#2773#2774#0" expanded="true" />
-            <element signature="e#2812#2813#0" expanded="true" />
-            <element signature="e#2873#2874#0" expanded="true" />
-            <element signature="e#2929#2930#0" expanded="true" />
-            <element signature="e#2975#2976#0" expanded="true" />
-            <element signature="e#3017#3018#0" expanded="true" />
-            <element signature="e#3087#3088#0" expanded="true" />
-            <element signature="e#3149#3150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v8/core/Webserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v9/http/HttpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v9/conf/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4978">
+          <caret line="262" column="14" selection-start-line="262" selection-start-column="14" selection-end-line="262" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/XML/ParseXmlDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v9/core/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v9/http/HttpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="159" column="57" selection-start-line="159" selection-start-column="57" selection-end-line="159" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3068#3069#0" expanded="true" />
+            <element signature="e#3101#3102#0" expanded="true" />
+            <element signature="e#3150#3151#0" expanded="true" />
+            <element signature="e#3194#3195#0" expanded="true" />
+            <element signature="e#3233#3234#0" expanded="true" />
+            <element signature="e#3268#3269#0" expanded="true" />
+            <element signature="e#3324#3325#0" expanded="true" />
+            <element signature="e#3372#3373#0" expanded="true" />
+            <element signature="e#3403#3404#0" expanded="true" />
+            <element signature="e#3432#3433#0" expanded="true" />
+            <element signature="e#4254#4255#0" expanded="true" />
+            <element signature="e#4298#4299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v9/http/HttpContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v9/core/Webserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -881,10 +1466,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>WebServer_v1:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -892,7 +1479,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -932,7 +1519,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -940,6 +1526,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: org.hamcrest:hamcrest-core:1.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

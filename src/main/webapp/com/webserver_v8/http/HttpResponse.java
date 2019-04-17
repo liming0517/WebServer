@@ -142,8 +142,21 @@ private Map<String,String > headers =new HashMap<>();
         return entity;
     }
 
+    /**
+     * 设置响应正文对应的实体文件
+     * 设置正文的同时会自动向响应对象中添加说明
+     * 响应正文的响应头:Content-Type和Content-Length
+     * @param entity
+     */
     public void setEntity(File entity) {
         this.entity = entity;
+        String fileName =entity.getName();
+        //获取后缀名
+        String ext= fileName.substring(fileName.indexOf(".")+1);
+
+        //添加响应头
+        this.putHeader("Content-Type", HttpContext.getMimeType(ext));
+        this.putHeader("Content-Length",entity.length()+"");
     }
 
     /**
