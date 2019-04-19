@@ -46,14 +46,14 @@ public class ClientHandler implements Runnable {
         String path = httpRequest.getUrl();
         //通过路径找到webapps目录下对应资源
 
-            File file = new File("./\\src\\main\\webapp\\com\\webserver_v8\\webapps" + path);
+            File file = new File("./\\src\\main\\webapp\\com\\webserver_v9\\webapps" + path);
             if (file.exists()) {
                 //将要响应的资源设置到response的entity属性上
                 httpReponse.setEntity(file);
 
             } else {
                 System.out.println("404资源不存在");
-                File file404 = new File("./\\src\\main\\webapp\\com\\webserver_v8\\webapps\\myweb\\404.html");
+                File file404 = new File("./\\src\\main\\webapp\\com\\webserver_v9\\webapps\\myweb\\404.html");
                 //设置状态码和描述
                 httpReponse.setStatusCode(404);
                 httpReponse.setStatusReason("NOT FOUND");

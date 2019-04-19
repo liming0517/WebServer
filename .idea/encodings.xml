@@ -2,10 +2,91 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test2/core/ClientHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test2/core/Webserver.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test2/http/HttpContext.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test2/http/HttpRequest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test2/http/HttpResponse.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test2/readme.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test2/webapps/myweb/index.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test2/webserver_test3/core/ClientHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test2/webserver_test3/core/Webserver.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test2/webserver_test3/http/HttpContext.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test2/webserver_test3/http/HttpRequest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test2/webserver_test3/http/HttpResponse.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test2/webserver_test3/readme.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test2/webserver_test3/servlet/RegServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test2/webserver_test3/webapps/myweb/index.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test3/core/ClientHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test3/core/Webserver.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test3/http/HttpContext.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test3/http/HttpRequest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test3/http/HttpResponse.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test3/readme.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test4/core/ClientHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test4/core/Webserver.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test4/http/HttpContext.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test4/http/HttpRequest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test4/http/HttpResponse.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test4/readme.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test4/servlet/LoginServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test4/servlet/RegServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test4/webapps/myweb/index.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test5/core/ClientHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test5/core/Webserver.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test5/http/HttpContext.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test5/http/HttpRequest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test5/http/HttpResponse.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test5/readme.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_test5/webapps/myweb/index.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v10/core/ClientHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v10/core/Webserver.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v10/http/HttpContext.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v10/http/HttpRequest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v10/http/HttpResponse.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v10/readme.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v10/webapps/myweb/index.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v11/core/ClientHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v11/core/Webserver.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v11/http/HttpContext.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v11/http/HttpRequest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v11/http/HttpResponse.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v11/readme.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v11/servlet/RegServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v11/webapps/myweb/index.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v12/core/ClientHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v12/core/ClientHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v12/core/Webserver.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v12/core/Webserver.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v12/http/HttpContext.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v12/http/HttpContext.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v12/http/HttpRequest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v12/http/HttpRequest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v12/http/HttpResponse.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v12/http/HttpResponse.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v12/readme.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v12/readme.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v12/servlet/LoginServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v12/servlet/RegServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v12/servlet/RegServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v12/webapps/myweb/index.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v12/webapps/myweb/index.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v13/core/ClientHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v13/core/Webserver.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v13/http/HttpContext.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v13/http/HttpRequest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v13/http/HttpResponse.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v13/readme.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v13/servlet/LoginServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v13/servlet/RegServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v13/webapps/myweb/index.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v7/readme.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v9/core/ClientHandler.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v9/core/Webserver.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v9/http/HttpContext.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v9/http/HttpRequest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/com/webserver_v9/http/HttpResponse.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/web.xml" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>

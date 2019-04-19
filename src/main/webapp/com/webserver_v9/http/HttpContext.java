@@ -41,7 +41,7 @@ public class HttpContext {
          */
         try{
             SAXReader reader =new SAXReader();
-            Document doc = reader.read(new File("./web.xml"));
+            Document doc = reader.read(new File("./\\src\\main\\webapp\\com\\webserver_v9\\conf\\web.xml"));
             Element root=doc.getRootElement();
             List<Element> list = root.elements("mime-mapping");
             for(Element mimemapiing : list ){

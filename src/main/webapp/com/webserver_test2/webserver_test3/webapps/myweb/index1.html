@@ -1,0 +1,93 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>百度练习</title>
+    <style type="text/css">
+        .top {
+            float: right;
+            position: absolute;
+            top: 10px;
+            right: 10px
+        }
+
+        .top ul li {
+            display: inline;
+            list-style: none;
+            float: left;
+            margin-left: 20px;
+        }
+
+        .more {
+            background-color: dodgerblue;
+            color: white;
+            border: 0;
+        }
+
+        #text1 {
+            width: 570px;
+            height: 40px;
+        }
+
+        #baidu {
+            height: 45px;
+            background-color: dodgerblue;
+            color: white;
+            border: 0;
+        }
+
+        #center {
+            margin-top: 40px;
+            margin-left: 350px;
+        }
+
+        .under {
+            text-align: center;
+            font-size: smaller;
+            color: darkgrey;
+            position: absolute;
+            left: 450px;
+            bottom: 10px;
+        }
+
+        .under a {
+            color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+<div class="top">
+    <ul>
+        <li><a herf="#">糯米</a></li>
+        <li><a herf="#">hao123</a></li>
+        <li><a herf="#">地图</a></li>
+        <li><a herf="#">视频</a></li>
+        <li><a herf="#">贴吧</a></li>
+        <li><a herf="#">我的账号</a></li>
+        <li><a herf="#">设置</a></li>
+        <li><input type="button" class="more" value="更多产品"></li>
+
+    </ul>
+</div>
+<div id="center">
+    <div class="pic"><img src="baidu123.png"></div>
+    <!--
+    在这页面我们也经常使用路径指定某个资源位置，比如下面指定图片的位置。而这里指定位置的路径也常用相对路径，在页面上相对路径
+    中"./"对应的当前目录浏览器会认为是当前页面所在的目录
+    例如：
+    我们访问当前页面是在浏览器输入的路径为：
+    http://localhost：8088/myweb/index.html
+    那么浏览器认为"./"表示的是
+     http://localhost：8088/myweb/
+     因此下面图片指定的路径src="./logo.png"的实际路径：
+     http://localhost：8088/myweb/logo.png
+    -->
+    <div class="center"><input id="text1" type="text"><input id="baidu" type="button" value="百度一下"  onclick="alert('点你妹啊')"></div>
+</div>
+
+<div class="under"><a href="#">设为首页</a>
+    &copy;2016 Baidu <a href="#">使用前必读</a> <a href="#">意见反馈</a>
+    京ICP证123456号<br/>
+    京安网安备111111111125222001号
+</div>
+</body>
+</html>

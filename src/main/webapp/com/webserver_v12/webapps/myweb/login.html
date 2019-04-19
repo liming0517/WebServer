@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+</head>
+<body>
+<center>
+    <h1>请登录</h1>
+    <!--
+    form表单是用来将用户页面输入的内容提交给服务器使用的，注意，只有被form标签所包含的输入框的内容才会被提交
+    form表单有两个重要的属性：
+    ①action：用来指定该表单提交的路径
+    ②method：用来指定表单提交的方式
+
+    method常用的值为：GET，POST
+    GET：地址栏形式提交，表单数据会被拼接到URL中提交给服务器
+    POST：打包形式提交，内容会包含在请求的消息正文中，对于提交隐私数据或者有上传附件操作时，要使用这种方式提交
+    -->
+    <form action="./login" method="get">
+        <table>
+            <tr>
+                <td>用户名</td>
+                <td><input name="username" type="text"></td>
+            </tr>
+            <tr>
+                <td>密码</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="立即登录"></input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="重新输入"></input></td>
+            </tr>
+        </table>
+    </form>
+</center>
+
+</body>
+</html>
